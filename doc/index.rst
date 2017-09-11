@@ -9,7 +9,10 @@ snakemake**, then use ``from kdmsnakemake import *`` in the top of your Snakefil
    :maxdepth: 1
    :caption: Contents:
 
-.. automodule:: kdm-snakemake-helpers
+Helper functions
+----------------
+
+.. automodule:: kdmsnakemake
     :members:
 
 
