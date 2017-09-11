@@ -1,2 +1,3 @@
-# kdm-snakemake-helpers
-Misc functions often used in snakefiles
+# Kevin's Snakemake Helpers
+
+See <http://kdm-snakemake-helpers.readthedocs.io> for documentation.
