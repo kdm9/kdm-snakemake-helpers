@@ -7,7 +7,7 @@ description = "kdm-snakemake-helpers: useful code often in snakefiles"
 
 setup(
     name='kdm-snakemake-helpers',
-    modules=['kdmsnakemake', ],
+    py_modules=['kdmsnakemake', ],
     version=ksnk.__version__,
     install_requires=[],
     setup_requires=[],
