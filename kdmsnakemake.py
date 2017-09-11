@@ -1,9 +1,9 @@
+from __future__ import division, print_function, absolute_import
 from collections import defaultdict
 import re
 
 __version__ = "0.0.1"
 __all__ = ["make_regions", "make_chromosomes"]
-
 
 
 def parsefai(fai):
