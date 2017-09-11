@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-VERSION = "0.0.1"
 
 from setuptools import setup
+import kdmsnakemake as ksnk
 
 description = "kdm-snakemake-helpers: useful code often in snakefiles"
 
 setup(
     name='kdm-snakemake-helpers',
     modules=['kdmsnakemake', ],
-    version=VERSION,
+    version=ksnk.__version__,
     install_requires=[],
     setup_requires=[],
     tests_require=[],

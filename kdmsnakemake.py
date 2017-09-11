@@ -1,6 +1,10 @@
 from collections import defaultdict
 import re
 
+__version__ = "0.0.1"
+__all__ = ["make_regions", "make_chromosomes"]
+
+
 
 def parsefai(fai):
     """Parses a fasta index, yielding (chomosome, length) pairs"""
