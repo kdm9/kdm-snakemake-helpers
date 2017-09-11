@@ -25,7 +25,7 @@ def make_regions(rdict, window=1e6):
     :param window: Size of windows
     :returns: dict of {refname: {region: coordinates, ...}, ...}
     """
-    window = int(window)
+    window = int(float(window))
     ret = {}
     for refname, refpath in rdict.items():
         fai = refpath+".fai"
