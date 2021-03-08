@@ -1,3 +1,3 @@
-# Kevin's Snakemake Helpers
+# OBSOLETE
 
-See <http://kdm-snakemake-helpers.readthedocs.io> for documentation.
+see https://github.com/kdm9/Acanthophis
